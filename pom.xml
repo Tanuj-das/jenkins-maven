@@ -28,9 +28,6 @@
         <id>central</id>
         <url>https://mvnrepository.com/</url>
     </repository>
-    <snapshotRepository>
-        <id>snapshots</id>
-        <url>https://mvnrepository.com/</url>
-    </snapshotRepository>
+    
 </distributionManagement>
 </project>
