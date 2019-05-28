@@ -15,7 +15,7 @@
   </properties>
 <distributionManagement>
     <repository>
-        <id>releases</id>
+        <id>central</id>
         <url>D:\jen-try</url>
     </repository>
     <snapshotRepository>
