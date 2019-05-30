@@ -23,4 +23,11 @@
     </dependency>
 
   </dependencies>
+  <distributionManagement>
+       <repository>
+         <id>C:\Users\nisum\.m2</id>
+         <name>Internal repo</name>
+         <url>scp://repo/maven2</url>
+       </repository>
+   </distributionManagement>
 </project>
