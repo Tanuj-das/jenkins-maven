@@ -24,6 +24,18 @@ pipeline {
                         
 }
                       }
+                      stage('Deplyment Stage') {
+                         steps{
+  							withMaven(maven : 'Apache Maven 3.3.9')
+                         {
+    						bat 'mvn deploy'
+                             
+
+                         }
+ 
+                        
+}
+                      }
                      
     }
 
