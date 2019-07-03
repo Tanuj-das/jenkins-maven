@@ -24,9 +24,13 @@
 
   </dependencies>
   <distributionManagement>
-   <repository>
-      <id>nexus-site</id>
-        <url>http://central_nexus/server</url>
-   </repository>
+	<repository>
+		<id>nexus-release</id>
+		<url>http://192.168.122.1:8081/repository/POC-Rele/</url>
+	</repository>
+	<snapshotRepository>
+		<id>nexus-snapshot</id>
+		<url>http://192.168.122.1:8081/repository/POC-Snap/</url>
+	</snapshotRepository>
 </distributionManagement>
 </project>
