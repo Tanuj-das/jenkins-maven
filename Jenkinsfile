@@ -24,8 +24,10 @@ pipeline {
                         
 }
                       }
-                    
-                     
+             stage('Slack Notification')    
+	    {
+		    slackSend baseUrl: 'https://hooks.slack.com/services/', channel: '#frie', message: 'Hey welcome to slack', teamDomain: 'friends', tokenCredentialId: 'slack-demo'
+	    }           
     }
 
     
